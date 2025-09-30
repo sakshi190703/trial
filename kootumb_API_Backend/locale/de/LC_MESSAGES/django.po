@@ -1,0 +1,1834 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kootumb\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-09 17:02+0100\n"
+"PO-Revision-Date: 2019-12-09 16:20\n"
+"Last-Translator: Jozsef Sallai (joexyz)\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: kootumb\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /kootumb-api/django.po\n"
+
+#: kongo/settings.py:415
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: kongo/settings.py:416
+msgid "English"
+msgstr "Englisch"
+
+#: kongo/settings.py:417
+msgid "German"
+msgstr "Deutsch"
+
+#: kongo/settings.py:418
+msgid "Dutch"
+msgstr "Niederländisch"
+
+#: kongo/settings.py:419
+msgid "Danish"
+msgstr "Dänisch"
+
+#: kongo/settings.py:420
+msgid "Hungarian"
+msgstr "Ungarisch"
+
+#: kongo/settings.py:421
+msgid "Swedish"
+msgstr "Schwedisch"
+
+#: kongo/settings.py:422
+msgid "French"
+msgstr "Französisch"
+
+#: kongo/settings.py:423
+msgid "Italian"
+msgstr "Italienisch"
+
+#: kongo/settings.py:424
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: kongo/settings.py:425
+msgid "Portuguese, Brazilian"
+msgstr "Brasilianisches Portugiesisch"
+
+#: kongo_auth/checkers.py:27
+msgid "You cannot edit a closed post"
+msgstr "Du kannst keinen geschlossenen Beitrag bearbeiten"
+
+#: kongo_auth/checkers.py:35
+#, python-format
+msgid "You cannot post to circle with id %(id)s"
+msgstr "Du kannst nicht in den Kreis mit der id %(id)s schreiben"
+
+#: kongo_auth/checkers.py:42
+msgid "You cannot post to a community you're not member of "
+msgstr "Du kannst nicht in eine Community posten in der du kein Mitglied bist "
+
+#: kongo_auth/checkers.py:50
+msgid "Only moderators/administrators can enable/disable comments"
+msgstr "Nur Moderatoren/Administratoren können Kommentare aktivieren/deaktivieren"
+
+#: kongo_auth/checkers.py:60
+msgid "Comments are disabled for this post"
+msgstr "Kommentare sind für diesen Beitrag deaktiviert"
+
+#: kongo_auth/checkers.py:69
+msgid "Only public posts can be translated"
+msgstr "Nur öffentliche Beiträge können übersetzt werden"
+
+#: kongo_auth/checkers.py:73
+msgid "Post has no text to be translated"
+msgstr "Der Beitrag enthält keinen zu übersetzenden Text"
+
+#: kongo_auth/checkers.py:77
+msgid "Post has no assigned language to be able to translate"
+msgstr "Der Beitrag ist in einer Sprache, die noch nicht übersetzt werden kann"
+
+#: kongo_auth/checkers.py:81 kongo_auth/checkers.py:771
+msgid "User's preferred translation language not set"
+msgstr "Die bevorzugte Übersetzungssprache des Benutzers ist nicht festgelegt"
+
+#: kongo_auth/checkers.py:90 kongo_auth/checkers.py:102
+msgid "Only community posts can be opened/closed"
+msgstr "Nur Community-Beiträge können geöffnet/geschlossen werden"
+
+#: kongo_auth/checkers.py:95
+msgid "Only administrators/moderators can open this post"
+msgstr "Nur Administratoren/Moderatoren können diesen Beitrag öffnen"
+
+#: kongo_auth/checkers.py:107
+msgid "Only administrators/moderators can close this post"
+msgstr "Nur Administratoren/Moderatoren können diesen Beitrag schließen"
+
+#: kongo_auth/checkers.py:135
+msgid "Already following user."
+msgstr "Du folgst diesem Nutzer bereits."
+
+#: kongo_auth/checkers.py:142
+msgid "Maximum number of follows reached."
+msgstr "Maximale Anzahl an Followern erreicht."
+
+#: kongo_auth/checkers.py:151
+msgid "Already following user in list."
+msgstr "Du folgst dem Nutzer bereits in der Liste."
+
+#: kongo_auth/checkers.py:160
+msgid "Not following user in list."
+msgstr "Du folgst diesem Nutzer nicht in der Liste."
+
+#: kongo_auth/checkers.py:167
+msgid "Not following user."
+msgstr "Du folgst diesem Nutzer nicht."
+
+#: kongo_auth/checkers.py:174
+msgid "Maximum number of connections reached."
+msgstr "Maximale Anzahl an Verbindungen erreicht."
+
+#: kongo_auth/checkers.py:187
+msgid "Already connected with user."
+msgstr "Du bist bereits mit diesem Nutzer verbunden."
+
+#: kongo_auth/checkers.py:194
+msgid "Already fully connected with user."
+msgstr "Du bist bereits vollständig mit diesem Nutzer verbunden."
+
+#: kongo_auth/checkers.py:201
+msgid "Not connected with user."
+msgstr "Du bist nicht mit diesem Nutzer verbunden."
+
+#: kongo_auth/checkers.py:208
+msgid "Not connected with user in given circle."
+msgstr "Du bist nicht mit dem Nutzer im angegebenen Kreis verbunden."
+
+#: kongo_auth/checkers.py:215
+msgid "Already connected with user in given circle."
+msgstr "Du bist bereits mit diesem Nutzer im angegebenen Kreis verbunden."
+
+#: kongo_auth/checkers.py:222
+msgid "List does not exist."
+msgstr "Liste existiert nicht."
+
+#: kongo_auth/checkers.py:229
+msgid "Circle does not exist."
+msgstr "Kreis existiert nicht."
+
+#: kongo_auth/checkers.py:236
+msgid "One or more of the circles do not exist."
+msgstr "Einer oder mehrere dieser Kreise existieren nicht."
+
+#: kongo_auth/checkers.py:249
+msgid "Only moderators/administrators can remove community posts."
+msgstr "Nur Moderatoren/Administratoren können Community-Beiträge löschen."
+
+#: kongo_auth/checkers.py:257
+msgid "You cannot remove a post that does not belong to you"
+msgstr "Du kannst nur eigene Beiträge löschen"
+
+#: kongo_auth/checkers.py:264
+msgid "Can't delete a list that does not belong to you."
+msgstr "Du kannst nur eine eigene Liste löschen."
+
+#: kongo_auth/checkers.py:271
+msgid "Can't update a list that does not belong to you."
+msgstr "Du kannst eine Liste nicht aktualisieren, wenn sie nicht dir gehört."
+
+#: kongo_auth/checkers.py:278
+msgid "Can't delete a community that you do not administrate."
+msgstr "Du kannst eine Community nur dann löschen, wenn du sie verwaltest."
+
+#: kongo_auth/checkers.py:285
+msgid "Can't update a community that you do not administrate."
+msgstr "Du kannst eine Community nur dann aktualisieren, wenn du sie verwaltest."
+
+#: kongo_auth/checkers.py:296
+msgid "The community is private. You must become a member to retrieve its posts."
+msgstr "Diese Community ist privat. Du musst ihr beitreten um Beiträge zu sehen."
+
+#: kongo_auth/checkers.py:304
+msgid "Only administrators/moderators can view closed posts"
+msgstr "Nur Administratoren/Moderatoren können geschlossene Beiträge sehen"
+
+#: kongo_auth/checkers.py:316
+msgid "Only members can enable new post notifications"
+msgstr ""
+
+#: kongo_auth/checkers.py:325 kongo_auth/checkers.py:1390
+msgid "New post notifications are already enabled"
+msgstr ""
+
+#: kongo_auth/checkers.py:341 kongo_auth/checkers.py:1404
+msgid "You are not subscribed to new post notifications"
+msgstr ""
+
+#: kongo_auth/checkers.py:353
+msgid "Can't see the members of a private community."
+msgstr "Du kannst die Mitglieder einer privaten Community nicht sehen."
+
+#: kongo_auth/checkers.py:363
+msgid "You are already a member of the community."
+msgstr "Du bist bereits Mitglied dieser Community."
+
+#: kongo_auth/checkers.py:370
+msgid "You are not invited to join this community."
+msgstr "Du bist nicht dazu eingeladen dieser Community beizutreten."
+
+#: kongo_auth/checkers.py:377
+msgid "You cannot leave a community you're not part of."
+msgstr "Du kannst eine Community nicht verlassen, in der du kein Mitglied bist."
+
+#: kongo_auth/checkers.py:382
+msgid "You cannot leave a community you created."
+msgstr "Du kannst keine von dir erstellte Community verlassen."
+
+#: kongo_auth/checkers.py:389
+msgid "You can only invite people to a community you are member of."
+msgstr "Du kannst nur Leute in eine Community einladen, der du selbst angehörst."
+
+#: kongo_auth/checkers.py:394
+msgid "You have already invited this user to join the community."
+msgstr "Du hast diesen Benutzer bereits in diese Community eingeladen."
+
+#: kongo_auth/checkers.py:402
+msgid "The user is already part of the community."
+msgstr "Der Benutzer ist bereits Mitglied der Community."
+
+#: kongo_auth/checkers.py:410
+msgid "Invites for this community are not enabled. Only administrators & moderators can invite."
+msgstr "Einladungen für diese Community sind nicht aktiviert. Nur Administratoren und Moderatoren können einladen."
+
+#: kongo_auth/checkers.py:418
+msgid "No invite to withdraw."
+msgstr "Keine Einladung zum Zurückzunehmen."
+
+#: kongo_auth/checkers.py:427
+msgid "Only community administrators & moderators can get banned users."
+msgstr "Nur Community-Administratoren und Moderatoren können gesperrte Benutzer einsehen."
+
+#: kongo_auth/checkers.py:436 kongo_auth/checkers.py:459
+msgid "Only community administrators & moderators can ban community members."
+msgstr "Nur Community-Administratoren und Moderatoren können Community-Mitglieder sperren."
+
+#: kongo_auth/checkers.py:443
+msgid "User is already banned"
+msgstr "Benutzer ist bereits gesperrt."
+
+#: kongo_auth/checkers.py:450
+msgid "You can't ban moderators or administrators of the community"
+msgstr "Du kannst Moderatoren oder Administratoren der Community nicht sperren!"
+
+#: kongo_auth/checkers.py:466
+msgid "Can't unban a not-banned user."
+msgstr "Der Benutzer ist nicht gesperrt und kann daher nicht entsperrt werden."
+
+#: kongo_auth/checkers.py:473
+msgid "Only the creator of the community can add other administrators."
+msgstr "Nur der Ersteller der Community kann andere Administratoren hinzufügen."
+
+#: kongo_auth/checkers.py:481
+msgid "User is already an administrator."
+msgstr "Benutzer ist bereits ein Administrator."
+
+#: kongo_auth/checkers.py:487
+msgid "Can't make administrator a user that is not part of the community."
+msgstr "Ein Benutzer, der nicht Mitglied der Community ist, kann nicht zum Administrator gemacht werden."
+
+#: kongo_auth/checkers.py:494
+msgid "Only the creator of the community can remove other administrators."
+msgstr "Nur der Ersteller der Community kann andere Administratoren entfernen."
+
+#: kongo_auth/checkers.py:502
+msgid "User to remove is not an administrator."
+msgstr "Der Benutzer, der entfernt werden soll, ist kein Administrator."
+
+#: kongo_auth/checkers.py:513
+msgid "Only administrators of the community can add other moderators."
+msgstr "Nur Administratoren der Community können andere Moderatoren hinzufügen."
+
+#: kongo_auth/checkers.py:521
+msgid "User is an administrator."
+msgstr "Benutzer ist ein Administrator."
+
+#: kongo_auth/checkers.py:527
+msgid "User is already a moderator."
+msgstr "Benutzer ist bereits Moderator."
+
+#: kongo_auth/checkers.py:533
+msgid "Can't make moderator a user that is not part of the community."
+msgstr "Ein Benutzer, der nicht Mitglied der Community ist, kann nicht zum Moderator gemacht werden."
+
+#: kongo_auth/checkers.py:540
+msgid "Only administrators of the community can remove other moderators."
+msgstr "Nur Administratoren der Community können andere Moderatoren entfernen."
+
+#: kongo_auth/checkers.py:547
+msgid "User to remove is not an moderator."
+msgstr "Der Benutzer, der entfernt werden soll, ist kein Moderator."
+
+#: kongo_auth/checkers.py:567
+msgid "Can't update a circle that does not belong to you."
+msgstr "Du kannst keinen Kreis aktualisieren, der dir nicht gehört."
+
+#: kongo_auth/checkers.py:572
+msgid "Can't update the world circle."
+msgstr "Der Kreis \"Welt\" kann nicht aktualisiert werden."
+
+#: kongo_auth/checkers.py:577
+msgid "Can't update the connections circle."
+msgstr "Kann den Kreis \"Kontakte\" nicht aktualisieren."
+
+#: kongo_auth/checkers.py:584
+msgid "Can't delete a circle that does not belong to you."
+msgstr "Du kannst keinen Kreis löschen, der dir nicht gehört."
+
+#: kongo_auth/checkers.py:589
+msgid "Can't delete the world circle."
+msgstr "Der Kreis \"Welt\" kann nicht gelöscht werden."
+
+#: kongo_auth/checkers.py:594
+msgid "Can't delete the connections circle."
+msgstr "Der Kreis \"Kontakte\" kann nicht gelöscht werden."
+
+#: kongo_auth/checkers.py:601
+msgid "Can't view a circle that does not belong to you."
+msgstr "Du kannst keinen Kreis betrachten, der dir nicht gehört."
+
+#: kongo_auth/checkers.py:608
+msgid "Can't view a list that does not belong to you."
+msgstr "Du kannst keine Liste betrachten, die dir nicht gehört."
+
+#: kongo_auth/checkers.py:615
+msgid "You already have a circle with that name."
+msgstr "Du hast bereits einen Kreis mit diesem Namen."
+
+#: kongo_auth/checkers.py:622
+msgid "You already have a list with that name."
+msgstr "Du hast bereits eine Liste mit diesem Namen."
+
+#: kongo_auth/checkers.py:634
+msgid "A community with that name already exists."
+msgstr "Eine Community mit diesem Namen existiert bereits."
+
+#: kongo_auth/checkers.py:641
+msgid "You must be member of a community before making it a favorite."
+msgstr "Du musst Mitglied einer Community sein, bevor du sie zu einem Favoriten machen kannst."
+
+#: kongo_auth/checkers.py:646
+msgid "You have already marked this community as favorite."
+msgstr "Du hast diese Community bereits als Favoriten markiert."
+
+#: kongo_auth/checkers.py:653
+msgid "You have already marked this community as excluded."
+msgstr "Du hast diese Community bereits als ausgeschlossen markiert."
+
+#: kongo_auth/checkers.py:658
+msgid "Private communities are always excluded from top posts."
+msgstr "Private Communities sind immer von Top-Beiträgen ausgeschlossen."
+
+#: kongo_auth/checkers.py:665
+msgid "You have not marked this community as excluded."
+msgstr "Du hast diese Community nicht als ausgeschlossen markiert."
+
+#: kongo_auth/checkers.py:672
+msgid "You have not favorited the community."
+msgstr "Du hast die Community nicht favorisiert."
+
+#: kongo_auth/checkers.py:679
+msgid "You cannot mark as read a notification that doesn't belong to you."
+msgstr "Du kannst keine Benachrichtigung als gelesen markieren, die nicht zu dir gehört."
+
+#: kongo_auth/checkers.py:690
+msgid "This notification does not belong to you."
+msgstr "Diese Benachrichtigung gehört nicht zu dir."
+
+#: kongo_auth/checkers.py:709
+msgid "Device not found"
+msgstr "Gerät nicht gefunden"
+
+#: kongo_auth/checkers.py:716
+msgid "Post already muted"
+msgstr "Beitrag bereits stumm geschaltet"
+
+#: kongo_auth/checkers.py:729
+msgid "Post is not muted"
+msgstr "Beitrag ist nicht stumm geschaltet"
+
+#: kongo_auth/checkers.py:736
+msgid "Post comment already muted"
+msgstr "Kommentar zum Beitrag bereits stumm geschaltet"
+
+#: kongo_auth/checkers.py:750
+msgid "Post_comment is not muted"
+msgstr "Kommentar zum Beitrag ist nicht stumm geschaltet"
+
+#: kongo_auth/checkers.py:759
+msgid "Only public post comments can be translated"
+msgstr "Nur öffentliche Kommentare können übersetzt werden"
+
+#: kongo_auth/checkers.py:763
+msgid "Post comment has no text to be translated"
+msgstr "Der Kommentar zum Beitrag hat keinen übersetzbaren Text"
+
+#: kongo_auth/checkers.py:767
+msgid "Post comment has no assigned language to be able to translate"
+msgstr "Dem Kommentar zum Beitrag ist keine übersetzbare Sprache zugewiesen"
+
+#: kongo_auth/checkers.py:778
+msgid "This post does not belong to you."
+msgstr "Dieser Beitrag gehört dir nicht."
+
+#: kongo_auth/checkers.py:785
+msgid "Wrong password."
+msgstr "Falsches Passwort."
+
+#: kongo_auth/checkers.py:811
+msgid "You cannot block yourself."
+msgstr "Du kannst dich nicht selbst blockieren."
+
+#: kongo_auth/checkers.py:817
+msgid "You cannot unblock an account you have not blocked."
+msgstr "Du kannst keinen Account entblockieren, den du nicht blockiert hast."
+
+#: kongo_auth/checkers.py:825 kongo_auth/checkers.py:1386
+#: kongo_auth/checkers.py:1400
+msgid "This account is blocked."
+msgstr "Dieser Account ist blockiert."
+
+#: kongo_auth/checkers.py:834
+msgid "You cannot report your own comment."
+msgstr "Du kannst deinen eigenen Kommentar nicht melden."
+
+#: kongo_auth/checkers.py:841
+msgid "You have already reported the comment."
+msgstr "Du hast diesen Kommentar bereits gemeldet."
+
+#: kongo_auth/checkers.py:850
+msgid "You cannot report your own post."
+msgstr "Du kannst deinen eigenen Beitrag nicht melden."
+
+#: kongo_auth/checkers.py:857
+msgid "You have already reported the post."
+msgstr "Du hast diesen Beitrag bereits gemeldet."
+
+#: kongo_auth/checkers.py:865
+msgid "You cannot report yourself..."
+msgstr "Du kannst dich nicht selbst melden..."
+
+#: kongo_auth/checkers.py:872
+msgid "You have already reported the user."
+msgstr "Du hast diesen Nutzer bereits gemeldet."
+
+#: kongo_auth/checkers.py:880
+msgid "You cannot report your own community."
+msgstr "Du kannst deine eigene Community nicht melden."
+
+#: kongo_auth/checkers.py:887
+msgid "You have already reported the community."
+msgstr "Du hast diese Community bereits gemeldet."
+
+#: kongo_auth/checkers.py:898
+msgid "You have already reported the hashtag."
+msgstr "Du hast den Hashtag bereits gemeldet."
+
+#: kongo_auth/checkers.py:912 kongo_auth/checkers.py:949
+#: kongo_auth/models.py:168
+msgid "Token type does not match"
+msgstr "Token-Typ stimmt nicht überein"
+
+#: kongo_auth/checkers.py:917 kongo_auth/checkers.py:959
+msgid "Token user id does not match"
+msgstr "Token-Benutzer-ID stimmt nicht überein"
+
+#: kongo_auth/checkers.py:922 kongo_auth/checkers.py:964
+#: kongo_auth/models.py:175
+msgid "Invalid token signature"
+msgstr "Ungültige Token-Signatur"
+
+#: kongo_auth/checkers.py:926 kongo_auth/checkers.py:968
+#: kongo_auth/models.py:179
+msgid "Token expired"
+msgstr "Token ist abgelaufen"
+
+#: kongo_auth/checkers.py:930 kongo_auth/checkers.py:972
+#: kongo_auth/models.py:183
+msgid "Failed to decode token"
+msgstr "Token konnte nicht dekodiert werden"
+
+#: kongo_auth/checkers.py:934 kongo_auth/checkers.py:976
+#: kongo_auth/models.py:191
+msgid "Invalid token"
+msgstr "Ungültiger Token"
+
+#: kongo_auth/checkers.py:954
+msgid "Token email does not match"
+msgstr "Token-E-Mail stimmt nicht überein"
+
+#: kongo_auth/checkers.py:990
+msgid "Can't connect in the world circle."
+msgstr "Kann nicht mit dem Kreis \"Welt\" verbinden."
+
+#: kongo_auth/checkers.py:1002
+msgid "The email is already taken."
+msgstr "Diese E-Mail-Adresse wird bereits verwendet."
+
+#: kongo_auth/checkers.py:1014 kongo_auth/validators.py:18
+msgid "The username is already taken."
+msgstr "Der Benutzername ist bereits vergeben."
+
+#: kongo_auth/checkers.py:1025 kongo_auth/checkers.py:1054
+msgid "The comment does not belong to the specified post."
+msgstr "Der Kommentar gehört nicht zum angegebenen Beitrag."
+
+#: kongo_auth/checkers.py:1033
+msgid "Only administrators/moderators can edit a closed post."
+msgstr "Nur Administratoren/Moderatoren können einen geschlossenen Beitrag bearbeiten."
+
+#: kongo_auth/checkers.py:1041
+msgid "You cannot edit a comment that does not belong to you"
+msgstr "Du kannst nur eigene Kommentare bearbeiten"
+
+#: kongo_auth/checkers.py:1064
+msgid "Only moderators/administrators can remove closed community posts."
+msgstr "Nur Moderatoren/Administratoren können geschlossene Community-Beiträge löschen."
+
+#: kongo_auth/checkers.py:1068 kongo_auth/checkers.py:1082
+msgid "You cannot remove a comment that does not belong to you"
+msgstr "Du kannst nur eigene Kommentare löschen"
+
+#: kongo_auth/checkers.py:1093 kongo_auth/checkers.py:1106
+msgid "No comment found with given id for post with given uuid"
+msgstr "Kein Kommentar mit gegebener ID für Beitrag mit gegebener UUID gefunden"
+
+#: kongo_auth/checkers.py:1112
+msgid "You can post a reply to a comment, not to an existing reply"
+msgstr "Du kannst eine Antwort zu einem Kommentar posten, aber nicht zu einer vorhandenen Antwort"
+
+#: kongo_auth/checkers.py:1124
+msgid "That reaction does not belong to the specified post."
+msgstr "Diese Reaktion gehört nicht zum angegebenen Beitrag."
+
+#: kongo_auth/checkers.py:1130
+msgid "Can't delete a reaction that does not belong to you."
+msgstr "Du kannst nur eigene Reaktionen löschen."
+
+#: kongo_auth/checkers.py:1147
+msgid "Not a valid emoji to react with"
+msgstr "Kein gültiges Emoji für eine Reaktion"
+
+#: kongo_auth/checkers.py:1158
+msgid "This post is private."
+msgstr "Dieser Beitrag ist privat."
+
+#: kongo_auth/checkers.py:1165
+msgid "This hashtag is not  available."
+msgstr "Dieser Hashtag ist nicht verfügbar."
+
+#: kongo_auth/checkers.py:1175
+msgid "Cant react to comments on a closed post."
+msgstr "Du kannst nicht auf Kommentare eines geschlossenen Beitrags reagieren."
+
+#: kongo_auth/checkers.py:1184
+msgid "Can't delete a comment reaction that does not belong to you."
+msgstr "Du kannst nur eigene Reaktionen löschen."
+
+#: kongo_auth/checkers.py:1193
+msgid "This comment is private."
+msgstr "Dieser Kommentar ist privat."
+
+#: kongo_auth/checkers.py:1219
+msgid "You have already reported the moderated_object."
+msgstr "Du hast das moderierte Objekt bereits gemeldet."
+
+#: kongo_auth/checkers.py:1228
+msgid "The moderated object has been verified and can no longer be edited."
+msgstr "Das moderierte Objekt wurde verifiziert und kann nicht mehr bearbeitet werden."
+
+#: kongo_auth/checkers.py:1233
+msgid "The moderated object has already been approved/rejected."
+msgstr "Das moderierte Objekt wurde bereits genehmigt/abgelehnt."
+
+#: kongo_auth/checkers.py:1242 kongo_auth/checkers.py:1250
+msgid "The moderated object has already been verified."
+msgstr "Das moderierte Objekt wurde bereits verifiziert."
+
+#: kongo_auth/checkers.py:1258
+msgid "The moderated object has not been verified."
+msgstr "Das moderierte Objekt wurde nicht verifiziert."
+
+#: kongo_auth/checkers.py:1266
+msgid "The moderated object is already verified."
+msgstr "Das moderierte Objekt ist bereits verifiziert."
+
+#: kongo_auth/checkers.py:1271
+msgid "You cannot verify a moderated object with status pending. Please approve or reject it."
+msgstr "Du kannst kein moderiertes Objekt mit ausstehendem Staus verifizieren. Bitte bestätigen oder ablehnen."
+
+#: kongo_auth/checkers.py:1289
+msgid "Only community staff can moderate community posts"
+msgstr "Nur Community-Moderatoren können Community-Beiträge moderieren"
+
+#: kongo_auth/checkers.py:1291
+msgid "Only global moderators can moderate non-community posts"
+msgstr "Nur globale Moderatoren können Nicht-Community-Beiträge moderieren"
+
+#: kongo_auth/checkers.py:1295
+msgid "Only community staff can moderate community post comments"
+msgstr "Nur Community-Moderatoren können Community-Kommentare moderieren"
+
+#: kongo_auth/checkers.py:1297
+msgid "Only global moderators can moderate non-community post comments"
+msgstr "Nur globale Moderatoren können Kommentare von Nicht-Community-Beiträgen moderieren"
+
+#: kongo_auth/checkers.py:1299
+msgid "Non global moderators can only moderate posts and post comments."
+msgstr "Nicht-globale Moderatoren können nur Beiträge und Kommentare moderieren."
+
+#: kongo_auth/checkers.py:1304
+msgid "Not a global moderator."
+msgstr "Kein globaler Moderator."
+
+#: kongo_auth/checkers.py:1309
+msgid "Not a community staff."
+msgstr "Kein Community-Moderator."
+
+#: kongo_auth/checkers.py:1314
+msgid "You have no invites left"
+msgstr "Du hast keine Einladungen mehr übrig"
+
+#: kongo_auth/checkers.py:1330
+msgid "Invite email already sent to this address"
+msgstr "E-Mail-Einladung bereits an diese Adresse gesendet"
+
+#: kongo_auth/checkers.py:1342
+msgid "Invite is already used and cannot be deleted"
+msgstr "Die Einladung wird bereits verwendet und kann nicht gelöscht werden"
+
+#: kongo_auth/checkers.py:1348
+msgid "Invite was not created by you"
+msgstr "Einladung wurde nicht von dir erstellt"
+
+#: kongo_auth/checkers.py:1371
+msgid "No link associated with post."
+msgstr "Kein Link mit Beitrag verbunden."
+
+#: kongo_auth/checkers.py:1378
+msgid "You cannot enable notifications for yourself"
+msgstr ""
+
+#: kongo_auth/models.py:56 kongo_invitations/models.py:23
+msgid "email address"
+msgstr "E-Mail-Adresse"
+
+#: kongo_auth/models.py:65 kongo_communities/models.py:63
+msgid "is deleted"
+msgstr "ist gelöscht"
+
+#: kongo_auth/models.py:70 kongo_invitations/models.py:26
+msgid "username"
+msgstr "Benutzername"
+
+#: kongo_auth/models.py:75 kongo_invitations/models.py:31
+#, python-format
+msgid "Required. %(username_max_length)d characters or fewer. Letters, digits and _ only."
+msgstr "Erforderlich. %(username_max_length)d Zeichen oder weniger. Nur Buchstaben, Ziffern und _ ."
+
+#: kongo_auth/models.py:79 kongo_invitations/models.py:35
+msgid "A user with that username already exists."
+msgstr "Ein Benutzer mit diesem Benutzernamen existiert bereits."
+
+#: kongo_auth/models.py:90
+msgid "user"
+msgstr "Benutzer"
+
+#: kongo_auth/models.py:91
+msgid "users"
+msgstr "Benutzer"
+
+#: kongo_auth/models.py:100
+msgid "You must confirm you are over 16 years old to make an account"
+msgstr "Du musst bestätigen, dass du über 16 Jahre alt bist, um ein Konto zu erstellen"
+
+#: kongo_auth/models.py:105
+msgid "You must accept the guidelines to make an account"
+msgstr "Du musst die Richtlinien akzeptieren, um ein Konto zu erstellen"
+
+#: kongo_auth/models.py:187
+msgid "No user found for token"
+msgstr "Kein Benutzer für Token gefunden"
+
+#: kongo_auth/models.py:1178
+#, python-format
+msgid "%(post_commenter_name)s · %(post_commenter_username)s commented on your post."
+msgstr "%(post_commenter_name)s · %(post_commenter_username)s hat deinen Beitrag kommentiert."
+
+#: kongo_auth/models.py:1185
+#, python-format
+msgid "%(post_commenter_name)s · @%(post_commenter_username)s commented on a post you also commented on."
+msgstr "%(post_commenter_name)s · @%(post_commenter_username)s hat einen Beitrag kommentiert, den du ebenfalls kommentiert hast."
+
+#: kongo_auth/models.py:1242
+#, python-format
+msgid "%(post_commenter_name)s · @%(post_commenter_username)s replied to your comment on a post."
+msgstr "%(post_commenter_name)s · @%(post_commenter_username)s hat auf deinen Kommentar geantwortet."
+
+#: kongo_auth/models.py:1249
+#, python-format
+msgid "%(post_commenter_name)s · %(post_commenter_username)s replied to a comment on your post."
+msgstr "%(post_commenter_name)s · %(post_commenter_username)s antwortete auf einen Kommentar zu deinem Beitrag."
+
+#: kongo_auth/models.py:1256
+#, python-format
+msgid "%(post_commenter_name)s · @%(post_commenter_username)s replied on a comment you also replied on."
+msgstr "%(post_commenter_name)s · @%(post_commenter_username)s hat ebenfalls auf einen Kommentar geantwortet."
+
+#: kongo_auth/models.py:2667
+msgid "A user cannot follow itself."
+msgstr "Ein Benutzer kann sich nicht selbst folgen (außer Chuck Norris)."
+
+#: kongo_auth/models.py:2736
+msgid "A user cannot connect with itself."
+msgstr "Ein Benutzer kann sich nicht mit sich selbst verbinden (außer Chuck Norris)."
+
+#: kongo_auth/models.py:2775
+msgid "No data to update the connection with."
+msgstr "Keine Daten, mit denen die Verbindung aktualisiert werden kann."
+
+#: kongo_auth/models.py:3213
+msgid "Reset your password for kootumb"
+msgstr "Passwort für kootumb zurücksetzen"
+
+#: kongo_auth/models.py:3634 kongo_categories/models.py:15
+#: kongo_circles/models.py:29 kongo_common/models.py:101
+#: kongo_communities/models.py:30 kongo_devices/models.py:16
+#: kongo_hashtags/models.py:30 kongo_lists/models.py:17
+#: kongo_moderation/models.py:16
+msgid "name"
+msgstr "Name"
+
+#: kongo_auth/models.py:3637
+msgid "location"
+msgstr "Standort"
+
+#: kongo_auth/models.py:3640 kongo_categories/models.py:22
+#: kongo_communities/models.py:37
+msgid "avatar"
+msgstr "Profilbild"
+
+#: kongo_auth/models.py:3643 kongo_communities/models.py:40
+msgid "cover"
+msgstr "Cover"
+
+#: kongo_auth/models.py:3646
+msgid "bio"
+msgstr "Über mich"
+
+#: kongo_auth/models.py:3647
+msgid "url"
+msgstr "url"
+
+#: kongo_auth/models.py:3648
+msgid "followers count visible"
+msgstr "Follower-Anzahl sichtbar"
+
+#: kongo_auth/models.py:3649
+msgid "community posts visible"
+msgstr "sichtbare Community-Beiträge"
+
+#: kongo_auth/models.py:3653
+msgid "user profile"
+msgstr "Benutzerprofil"
+
+#: kongo_auth/models.py:3654
+msgid "users profiles"
+msgstr "Benutzerprofile"
+
+#: kongo_auth/models.py:3670
+msgid "post comment notifications"
+msgstr "Kommentar-Benachrichtigung"
+
+#: kongo_auth/models.py:3671
+msgid "post comment reply notifications"
+msgstr "Kommentarantwort-Benachrichtigung"
+
+#: kongo_auth/models.py:3672
+msgid "post reaction notifications"
+msgstr "Reaktion-Benachrichtigung"
+
+#: kongo_auth/models.py:3673
+msgid "follow notifications"
+msgstr "Follower-Benachrichtigung"
+
+#: kongo_auth/models.py:3674
+msgid "connection request notifications"
+msgstr "Verbindungsanfrage-Benachrichtigung"
+
+#: kongo_auth/models.py:3675
+msgid "connection confirmed notifications"
+msgstr "Verbindungsbestätigung-Benachrichtung"
+
+#: kongo_auth/models.py:3676
+msgid "community invite notifications"
+msgstr "Community-Einladungsbenachrichtigung"
+
+#: kongo_auth/models.py:3677
+msgid "community new post notifications"
+msgstr "Benachrichtigungen neuer Beiträge der Community"
+
+#: kongo_auth/models.py:3678
+msgid "user new post notifications"
+msgstr "Benachrichtigungen neuer Beiträge des Benutzers"
+
+#: kongo_auth/models.py:3679
+msgid "post comment reaction notifications"
+msgstr "Kommentarantwort-Benachrichtigung"
+
+#: kongo_auth/models.py:3680
+msgid "post comment user mention notifications"
+msgstr "Benachrichtigungen über Erwähnungen in Kommentaren"
+
+#: kongo_auth/models.py:3682
+msgid "post user mention notifications"
+msgstr "Benachrichtigungen über Erwähnungen in Beiträgen"
+
+#: kongo_auth/validators.py:11
+msgid "Usernames can only contain alphanumeric characters, periods and underscores."
+msgstr "Benutzername kann nur alphanumerische Zeichen, Punkte und Unterstriche enthalten."
+
+#: kongo_auth/validators.py:25
+msgid "An account for the email already exists."
+msgstr "Es existiert bereits ein Account mit dieser E-Mail-Adresse."
+
+#: kongo_auth/validators.py:32
+msgid "No user with the provided username exists."
+msgstr "Es existiert kein Nutzer mit dem angegebenen Namen."
+
+#: kongo_auth/validators.py:39
+msgid "No user with the provided email exists."
+msgstr "Es existiert kein Nutzer mit der angegebenen E-Mail-Adresse."
+
+#: kongo_auth/views/auth/views.py:82
+msgid "Token valid"
+msgstr "Token gültig"
+
+#: kongo_auth/views/auth/views.py:95
+msgid "Username available"
+msgstr "Benutzername verfügbar"
+
+#: kongo_auth/views/auth/views.py:108
+msgid "Email available"
+msgstr "E-Mail verfügbar"
+
+#: kongo_auth/views/auth/views.py:126
+msgid "Email verified"
+msgstr "E-Mail-Adresse verifiziert"
+
+#: kongo_auth/views/auth/views.py:164 kongo_auth/views/auth/views.py:201
+msgid "Password set successfully"
+msgstr "Passwort erfolgreich festgelegt"
+
+#: kongo_auth/views/auth/views.py:182
+msgid "A password reset link was sent to the email"
+msgstr "Ein Link zum Zurücksetzen des Passworts wurde an deine E-Mail gesendet"
+
+#: kongo_auth/views/authenticated_user/serializers.py:137
+msgid "New password must be supplied together with the current password"
+msgstr "Neues Passwort muss zusammen mit dem aktuellen Passwort angegeben werden"
+
+#: kongo_auth/views/authenticated_user/serializers.py:140
+msgid "Current password must be supplied together with the new password"
+msgstr "Aktuelles Passwort muss zusammen mit dem neuen Passwort angegeben werden"
+
+#: kongo_auth/views/authenticated_user/views.py:87
+msgid "Goodbye 😔"
+msgstr "Wir werden dich vermissen 😔"
+
+#: kongo_auth/views/authenticated_user/views.py:166
+msgid "Please specify email or password to update"
+msgstr "Bitte gib an ob du die E-Mail oder das Passwort aktualisieren willst"
+
+#: kongo_auth/views/authenticated_user/views.py:172
+msgid "Confirm your email for kongo"
+msgstr "Bestätige deine E-Mail für kootumb"
+
+#: kongo_auth/views/authenticated_user/views.py:204
+msgid "Guidelines successfully accepted"
+msgstr "Richtlinien erfolgreich akzeptiert"
+
+#: kongo_auth/views/authenticated_user/views.py:228
+msgid "Language successfully set"
+msgstr "Sprache erfolgreich festgelegt"
+
+#: kongo_auth/views/proxy/views.py:29
+msgid "All Ok"
+msgstr "Alles Okay"
+
+#: kongo_categories/i18n/i18n.py:3
+msgid "Education"
+msgstr "Bildung"
+
+#: kongo_categories/i18n/i18n.py:4
+msgid "For everything related to Education."
+msgstr "Für alles, was mit Bildung zu tun hat."
+
+#: kongo_categories/i18n/i18n.py:5
+msgid "Fun"
+msgstr "Spaß"
+
+#: kongo_categories/i18n/i18n.py:6
+msgid "Fun stuff!"
+msgstr "Witziges!"
+
+#: kongo_categories/i18n/i18n.py:7
+msgid "Technology"
+msgstr "Technologie"
+
+#: kongo_categories/i18n/i18n.py:8
+msgid "For all tech related wizardry."
+msgstr "Für alle Technikbegeisterten."
+
+#: kongo_categories/i18n/i18n.py:9
+msgid "Sports"
+msgstr "Sport"
+
+#: kongo_categories/i18n/i18n.py:10
+msgid "For everything related to sports."
+msgstr "Für alles, was mit Sport zu tun hat."
+
+#: kongo_categories/i18n/i18n.py:11
+msgid "Nature"
+msgstr "Natur"
+
+#: kongo_categories/i18n/i18n.py:12
+msgid "For everything related to nature."
+msgstr "Für alles, was mit Natur zu tun hat."
+
+#: kongo_categories/i18n/i18n.py:13
+msgid "Travel"
+msgstr "Reisen"
+
+#: kongo_categories/i18n/i18n.py:14
+msgid "For everything related to travel."
+msgstr "Für alles, was mit Reisen zu tun hat."
+
+#: kongo_categories/i18n/i18n.py:15
+msgid "Art"
+msgstr "Kunst"
+
+#: kongo_categories/i18n/i18n.py:16
+msgid "For everything related to art."
+msgstr "Für alles, was mit Kunst zu tun hat."
+
+#: kongo_categories/i18n/i18n.py:17
+msgid "Lifestyle"
+msgstr "Lifestyle"
+
+#: kongo_categories/i18n/i18n.py:18
+msgid "For everything related to lifestyle."
+msgstr "Für alles, was mit Lifestyle zu tun hat."
+
+#: kongo_categories/i18n/i18n.py:19
+msgid "Entertainment"
+msgstr "Unterhaltung"
+
+#: kongo_categories/i18n/i18n.py:20
+msgid "For everything related to entertainment."
+msgstr "Für alles, was mit Unterhaltung zu tun hat."
+
+#: kongo_categories/i18n/i18n.py:21
+msgid "Places"
+msgstr "Orte"
+
+#: kongo_categories/i18n/i18n.py:22
+msgid "For everything related to places."
+msgstr "Für alles, was mit besonderen Orten und Plätzen zu tun hat."
+
+#: kongo_categories/i18n/i18n.py:23
+msgid "Food"
+msgstr "Essen"
+
+#: kongo_categories/i18n/i18n.py:24
+msgid "For everything related to food."
+msgstr "Für alles, was mit Essen und Trinken zu tun hat."
+
+#: kongo_categories/models.py:17 kongo_communities/models.py:32
+#: kongo_moderation/models.py:17
+msgid "title"
+msgstr "Titel"
+
+#: kongo_categories/models.py:18 kongo_communities/models.py:33
+#: kongo_moderation/models.py:18 kongo_moderation/models.py:48
+#: kongo_moderation/models.py:285
+msgid "description"
+msgstr "Beschreibung"
+
+#: kongo_categories/models.py:23 kongo_circles/models.py:30
+#: kongo_common/models.py:19 kongo_common/models.py:42
+#: kongo_communities/models.py:54 kongo_hashtags/models.py:33
+msgid "color"
+msgstr "Farbe"
+
+#: kongo_categories/validators.py:13
+msgid "No category with the provided name exists."
+msgstr "Es existiert keine Kategorie mit dem angegebenen Namen."
+
+#: kongo_circles/models.py:46
+msgid "Connections"
+msgstr "Verbindungen"
+
+#: kongo_circles/validators.py:12
+msgid "The circle does not exist."
+msgstr "Der Kreis existiert nicht."
+
+#: kongo_circles/views.py:103
+msgid "Circle name available"
+msgstr "Kreis-Name verfügbar"
+
+#: kongo_circles/views.py:105
+msgid "Circle name not available"
+msgstr "Kreis-Name nicht verfügbar"
+
+#: kongo_common/checkers.py:14
+msgid "No valid URL given"
+msgstr "Keine gültige URL angegeben"
+
+#: kongo_common/checkers.py:20
+msgid "Url is blacklisted"
+msgstr "URL ist gesperrt"
+
+#: kongo_common/i18n/i18n.py:3
+msgid "Primary"
+msgstr "Standard"
+
+#: kongo_common/i18n/i18n.py:4
+msgid "Premium"
+msgstr "Premium"
+
+#: kongo_common/i18n/i18n.py:5
+msgid "Objects"
+msgstr "Objekte"
+
+#: kongo_common/i18n/i18n.py:6
+msgid "Waw"
+msgstr "Wuff"
+
+#: kongo_common/i18n/i18n.py:7
+msgid "Party!"
+msgstr "Party!"
+
+#: kongo_common/i18n/i18n.py:8
+msgid "Love it"
+msgstr "Love it"
+
+#: kongo_common/i18n/i18n.py:9
+msgid "Sad"
+msgstr "Traurig"
+
+#: kongo_common/i18n/i18n.py:10
+msgid "Lit"
+msgstr "Lit"
+
+#: kongo_common/i18n/i18n.py:11
+msgid "Hooray!"
+msgstr "Hurra!"
+
+#: kongo_common/i18n/i18n.py:12
+msgid "Upset"
+msgstr "Ehh"
+
+#: kongo_common/i18n/i18n.py:13
+msgid "Wow"
+msgstr "Wow"
+
+#: kongo_common/i18n/i18n.py:14
+msgid "Haha"
+msgstr "Haha"
+
+#: kongo_common/i18n/i18n.py:15
+msgid "Alarm"
+msgstr "Alarm"
+
+#: kongo_common/i18n/i18n.py:16
+msgid "Computer"
+msgstr "Computer"
+
+#: kongo_common/i18n/i18n.py:17
+msgid "Game"
+msgstr "Spiel"
+
+#: kongo_common/i18n/i18n.py:18
+msgid "Football"
+msgstr "Fußball"
+
+#: kongo_common/i18n/i18n.py:19
+msgid "Lighting"
+msgstr "Blitz"
+
+#: kongo_common/i18n/i18n.py:20
+msgid "Lock"
+msgstr "Schloss"
+
+#: kongo_common/i18n/i18n.py:21
+msgid "Money"
+msgstr "Geld"
+
+#: kongo_common/i18n/i18n.py:22
+msgid "Pencil"
+msgstr "Stift"
+
+#: kongo_common/i18n/i18n.py:23
+msgid "Speaker"
+msgstr "Megafon"
+
+#: kongo_common/i18n/i18n.py:24
+msgid "Camera"
+msgstr "Kamera"
+
+#: kongo_common/i18n/i18n.py:25
+msgid "Bravo!"
+msgstr "Bravo!"
+
+#: kongo_common/i18n/i18n.py:26
+msgid "Cool"
+msgstr "Cool"
+
+#: kongo_common/i18n/i18n.py:27
+msgid "News"
+msgstr "News"
+
+#: kongo_common/i18n/i18n.py:28
+msgid "Earth"
+msgstr "Erde"
+
+#: kongo_common/i18n/i18n.py:29
+msgid "Book"
+msgstr "Buch"
+
+#: kongo_common/i18n/i18n.py:30
+msgid "Science"
+msgstr "Wissenschaft"
+
+#: kongo_common/i18n/i18n.py:31
+msgid "Bulb"
+msgstr "Glühbirne"
+
+#: kongo_common/i18n/i18n.py:32
+msgid "Fancy hat"
+msgstr "Zylinder"
+
+#: kongo_common/i18n/i18n.py:33
+msgid "Heart"
+msgstr "Herz"
+
+#: kongo_common/i18n/i18n.py:34
+msgid "Star"
+msgstr "Stern"
+
+#: kongo_common/i18n/i18n.py:35
+msgid "Trophy"
+msgstr "Pokal"
+
+#: kongo_common/i18n/i18n.py:36
+msgid "OMG"
+msgstr "OMG"
+
+#: kongo_common/i18n/i18n.py:37
+msgid "Thankful"
+msgstr "Dankbar"
+
+#: kongo_common/i18n/i18n.py:38
+msgid "Music"
+msgstr "Musik"
+
+#: kongo_common/i18n/i18n.py:39
+msgid "Wohoo!"
+msgstr "Wohoo!"
+
+#: kongo_common/i18n/i18n.py:40
+msgid "Palette"
+msgstr "Farbpalette"
+
+#: kongo_common/i18n/i18n.py:41
+msgid "Alien"
+msgstr "Alien"
+
+#: kongo_common/i18n/i18n.py:42
+msgid "Airplane"
+msgstr "Flugzeug"
+
+#: kongo_common/i18n/i18n.py:43
+msgid "Rocket"
+msgstr "Rakete"
+
+#: kongo_common/i18n/i18n.py:44
+msgid "Lipstick"
+msgstr "Lippenstift"
+
+#: kongo_common/i18n/i18n.py:45
+msgid "Crown"
+msgstr "Krone"
+
+#: kongo_common/i18n/i18n.py:46
+msgid "Map"
+msgstr "Landkarte"
+
+#: kongo_common/i18n/i18n.py:47
+msgid "Pride"
+msgstr "Pride"
+
+#: kongo_common/i18n/i18n.py:48
+msgid "Like it"
+msgstr "Gefällt mir"
+
+#: kongo_common/i18n/i18n.py:49
+msgid "Hehe"
+msgstr "Hehe"
+
+#: kongo_common/models.py:18 kongo_common/models.py:40
+msgid "keyword"
+msgstr "Schlüsselwort"
+
+#: kongo_common/models.py:23
+msgid "is reaction group"
+msgstr "ist Reaktionsgruppe"
+
+#: kongo_common/models.py:44 kongo_hashtags/models.py:42
+#: kongo_posts/models.py:773
+msgid "image"
+msgstr "Bild"
+
+#: kongo_common/models.py:90
+msgid "keyword_description"
+msgstr "Schlüsselwort_Beschreibung"
+
+#: kongo_common/models.py:100
+msgid "code"
+msgstr "Code"
+
+#: kongo_common/serializers_fields/request.py:40
+#, python-format
+msgid "Please keep filesize under %s. Current filesize %s"
+msgstr "Bitte behalte die Dateigröße unter %s. Aktuelle Dateigröße %s"
+
+#: kongo_common/serializers_fields/request.py:50
+msgid "Upload a valid image. The file you uploaded was either not an image or a corrupted image."
+msgstr "Lade ein gültiges Bild hoch. Die Datei, die du hochgeladen hast, war entweder kein Bild oder ein beschädigtes Bild."
+
+#: kongo_common/validators.py:16
+msgid "The provided value is not a valid hex color."
+msgstr "Der angegebene Wert ist keine gültige Hex-Farbe."
+
+#: kongo_common/validators.py:24
+msgid "No emoji with the provided id exists."
+msgstr "Es existiert kein Emoji mit der angegebenen ID."
+
+#: kongo_common/validators.py:32
+msgid "No emoji group with the provided id exists."
+msgstr "Es existiert keine Emoji-Gruppe mit der angegebenen ID."
+
+#: kongo_common/validators.py:39
+msgid "Names can't contain < or >."
+msgstr "Namen dürfen nicht < oder > enthalten."
+
+#: kongo_common/validators.py:47
+msgid "No supported language with the provided id exists."
+msgstr "Es existiert keine unterstützte Sprache mit der angegebenen ID."
+
+#: kongo_common/validators.py:55
+msgid "No supported language with the provided code exists."
+msgstr "Es existiert keine unterstützte Sprache mit dem angegebenen Code."
+
+#: kongo_common/views.py:65
+msgid "Domain is okay to be proxied"
+msgstr "Domain ist in Ordnung, kann über Proxy verbunden werden"
+
+#: kongo_communities/models.py:35
+msgid "rules"
+msgstr "Regeln"
+
+#: kongo_communities/models.py:56
+msgid "user adjective"
+msgstr "Mitgliederbezeichnung (Singular)"
+
+#: kongo_communities/models.py:58
+msgid "users adjective"
+msgstr "Mitgliederbezeichnung (Plural)"
+
+#: kongo_communities/models.py:60
+msgid "invites enabled"
+msgstr "Einladungen aktiviert"
+
+#: kongo_communities/models.py:512
+msgid "is administrator"
+msgstr "ist Administrator"
+
+#: kongo_communities/models.py:513
+msgid "is moderator"
+msgstr "ist Moderator"
+
+#: kongo_communities/validators.py:12
+msgid "Community_names can only contain alphanumeric characters, underscores and dashes."
+msgstr "Namen von Communities können nur alphanumerische Zeichen, Unterstriche und Bindestriche enthalten."
+
+#: kongo_communities/validators.py:20
+msgid "Community name already taken."
+msgstr "Name der Community ist bereits vergeben."
+
+#: kongo_communities/validators.py:28
+msgid "No community with the provided name exists."
+msgstr "Es existiert keine Community mit dem angegebenen Namen."
+
+#: kongo_communities/views/communities/views.py:88
+msgid "Community name available"
+msgstr "Name der Community verfügbar"
+
+#: kongo_communities/views/community/administrators/views.py:84
+msgid "Removed administrator"
+msgstr "Administrator entfernt"
+
+#: kongo_communities/views/community/banned_users/views.py:61
+msgid "Banned user!"
+msgstr "Benutzer gesperrt!"
+
+#: kongo_communities/views/community/banned_users/views.py:83
+msgid "Unbanned user!"
+msgstr "Benutzer entsperrt!"
+
+#: kongo_communities/views/community/moderators/views.py:82
+msgid "Removed moderator"
+msgstr "Moderator entfernt"
+
+#: kongo_communities/views/community/views.py:195
+msgid "Community excluded from this feed"
+msgstr "Community von diesem Feed ausgeschlossen"
+
+#: kongo_communities/views/community/views.py:209
+msgid "Community exclusion removed"
+msgstr "Community-Ausschluss entfernt"
+
+#: kongo_devices/models.py:14
+msgid "uuid"
+msgstr "UUID"
+
+#: kongo_hashtags/models.py:35
+msgid "text color"
+msgstr "Textfarbe"
+
+#: kongo_hashtags/validators.py:12
+msgid "No hashtag with the provided name exists."
+msgstr "Es existiert kein Hashtag mit dem angegebenen Namen."
+
+#: kongo_hashtags/validators.py:19
+msgid "Hashtags must to be alphanumerical and up to 32 characters."
+msgstr "Hashtags müssen alphanumerisch und bis zu 32 Zeichen lang sein."
+
+#: kongo_importer/views.py:45
+msgid "done"
+msgstr "fertig"
+
+#: kongo_importer/views.py:95 kongo_importer/views.py:103
+msgid "invalid archive"
+msgstr "ungültiges Archiv"
+
+#: kongo_invitations/models.py:19
+msgid "invited datetime"
+msgstr "Einladungszeit"
+
+#: kongo_invitations/models.py:80
+msgid "The token is invalid."
+msgstr "Das Token ist ungültig."
+
+#: kongo_invitations/models.py:85
+msgid "No invite exists for given token."
+msgstr "Für den angegebenen Token existiert keine Einladung."
+
+#: kongo_invitations/models.py:90
+msgid "This invite has already been used."
+msgstr "Diese Einladung wurde bereits verwendet."
+
+#: kongo_invitations/models.py:100 kongo_invitations/models.py:112
+msgid "You've been invited to join kootumb (formerly kongo)"
+msgstr "Du wurdest eingeladen, kootumb (ehem. kongo) beizutreten"
+
+#: kongo_invitations/models.py:132
+msgid "Action Required: Choose an alternate username for kootumb"
+msgstr "Aktion erforderlich: Wähle einen alternativen Benutzernamen für kootumb"
+
+#: kongo_invitations/validators.py:10
+msgid "The invite does not exist."
+msgstr "Die Einladung existiert nicht."
+
+#: kongo_invitations/validators.py:17
+msgid "The invite has already been used."
+msgstr "Die Einladung wurde bereits verwendet."
+
+#: kongo_invitations/views.py:96
+msgid "Successfully deleted invite"
+msgstr "Einladung erfolgreich gelöscht"
+
+#: kongo_invitations/views.py:135
+msgid "An error occurred sending the invite, please try again"
+msgstr "Beim Senden der Einladung ist ein Fehler aufgetreten, bitte versuche es erneut"
+
+#: kongo_invitations/views.py:137
+msgid "Invite email sent"
+msgstr "E-Mail-Einladung gesendet"
+
+#: kongo_lists/validators.py:10
+msgid "The list does not exist."
+msgstr "Die Liste ist nicht vorhanden."
+
+#: kongo_lists/views.py:105
+msgid "List name available"
+msgstr "Listenname verfügbar"
+
+#: kongo_lists/views.py:107
+msgid "List name not available"
+msgstr "Listenname nicht verfügbar"
+
+#: kongo_moderation/i18n/i18n.py:4
+msgid "Spam"
+msgstr "Spam"
+
+#: kongo_moderation/i18n/i18n.py:5
+msgid "Posts as spam could include clickbait, advertising, scams, script bots"
+msgstr "Spambeiträge können Clickbait, Werbung, Betrug, Skriptbots, usw. sein"
+
+#: kongo_moderation/i18n/i18n.py:6
+msgid "Pornography"
+msgstr "Pornografie"
+
+#: kongo_moderation/i18n/i18n.py:7
+msgid "Posts showing sexual intercourse, photos and videos of sexual intercourse, nudity etc"
+msgstr "Beiträge, die Sex, Fotos und Videos von Geschlechtsverkehr, Nacktheit usw. zeigen"
+
+#: kongo_moderation/i18n/i18n.py:8
+msgid "Hatred & Bullying"
+msgstr "Hass & Mobbing"
+
+#: kongo_moderation/i18n/i18n.py:9
+msgid "Credible threats, targets people, degrades or shames them, harassment etc."
+msgstr "Ernsthafte Drohungen, greift Menschen an, beziehungsweise erniedrigt oder beschämt sie, Belästigungen usw."
+
+#: kongo_moderation/i18n/i18n.py:10
+msgid "Self Harm"
+msgstr "Selbstverletzung"
+
+#: kongo_moderation/i18n/i18n.py:11
+msgid "Posts promoting or encouraging self harm"
+msgstr "Beiträge, die zur Selbstverletzung aufrufen oder diese fördern"
+
+#: kongo_moderation/i18n/i18n.py:12
+msgid "Violent, gory and harmful"
+msgstr "Gewalttätig, blutrünstig und bedrohlich"
+
+#: kongo_moderation/i18n/i18n.py:13
+msgid "Photos or videos of extreme graphic violence, posts encouraging violence, specific threats of physical harm"
+msgstr "Fotos oder Videos von extremer Gewalt, Beiträge, die zu Gewalt aufrufen, akute Drohungen körperlicher Gewalt"
+
+#: kongo_moderation/i18n/i18n.py:14
+msgid "Child Sexual Exploitation Material"
+msgstr "Material zur sexuellen Ausbeutung von Kindern"
+
+#: kongo_moderation/i18n/i18n.py:15
+msgid "Posts with photos or videos of sexual intercourse with children, posts of nude/partially nude children."
+msgstr "Beiträge mit Fotos oder Videos, die sexuelle Aktivitäten mit Kindern zeigen, beziehungsweise Beiträge mit nackten/teilweise nackten Kindern."
+
+#: kongo_moderation/i18n/i18n.py:16
+msgid "Illegal Activities e.g Drug Use"
+msgstr "Illegale Aktivitäten, wie z.B. Drogenmissbrauch"
+
+#: kongo_moderation/i18n/i18n.py:17
+msgid "Posts promoting illegal activities such as use, sale or distribution of hard drugs etc"
+msgstr "Beiträge, die illegale Aktivitäten fördern wie z.B. Konsum, Verkauf oder Vertrieb von harten Drogen"
+
+#: kongo_moderation/i18n/i18n.py:18
+msgid "Deceptive content"
+msgstr "Irreführende Inhalte"
+
+#: kongo_moderation/i18n/i18n.py:19
+msgid "Posts with purposefully fake or deceitful news, hoax disproved by credible sources"
+msgstr "Beiträge mit absichtlich falschen oder täuschenden Nachrichten, beziehungsweise Falschmeldungen, die durch glaubwürdige Quellen widerlegt wurden"
+
+#: kongo_moderation/i18n/i18n.py:20
+msgid "Copyright and trademark infringement"
+msgstr "Urheberrechts- oder Markenverletzung"
+
+#: kongo_moderation/i18n/i18n.py:21
+msgid "Posts with content that violates or infringes your copyright."
+msgstr "Beiträge mit Inhalten, die dein Urheberrecht missachten oder verletzen."
+
+#: kongo_moderation/i18n/i18n.py:22
+msgid "Platform abuse"
+msgstr "Missbrauch des Netzwerks"
+
+#: kongo_moderation/i18n/i18n.py:23
+msgid "Abuse might contain using bots, abusing the report button, spamming continuously."
+msgstr "Missbrauch beinhaltet die Nutzung von Bots, Missbrauch des Meldebuttons oder andauerndes Spammen."
+
+#: kongo_moderation/i18n/i18n.py:24
+msgid "Community Guidelines Infringement"
+msgstr "Verletzung der Community-Richtlinien"
+
+#: kongo_moderation/i18n/i18n.py:25
+msgid "The item does not conform to the community guidelines."
+msgstr "Der Beitrag entspricht nicht den Community-Richtlinien."
+
+#: kongo_moderation/i18n/i18n.py:26
+msgid "Other"
+msgstr "Sonstige"
+
+#: kongo_moderation/i18n/i18n.py:27
+msgid "Other reasons not included in other categories."
+msgstr "Sonstige Gründe, die nicht in den anderen Kategorien enthalten sind."
+
+#: kongo_moderation/models.py:50
+msgid "verified"
+msgstr "verifiziert"
+
+#: kongo_moderation/models.py:420 kongo_moderation/models.py:437
+#: kongo_moderation/models.py:454
+msgid "changed from"
+msgstr "geändert von"
+
+#: kongo_moderation/models.py:422 kongo_moderation/models.py:440
+#: kongo_moderation/models.py:456
+msgid "changed to"
+msgstr "geändert zu"
+
+#: kongo_moderation/permissions.py:24
+#, python-format
+msgid "Your account has been suspended and will be unsuspended in %s"
+msgstr "Dein Account wurde gesperrt und wird in %s wieder entsperrt"
+
+#: kongo_moderation/views/checks.py:14
+msgid "Congrats, you're not suspended :-)"
+msgstr "Glückwunsch, du bist nicht gesperrt :-)"
+
+#: kongo_moderation/views/report/views.py:34
+msgid "Post reported, thanks!"
+msgstr "Beitrag gemeldet. Danke!"
+
+#: kongo_moderation/views/report/views.py:62
+msgid "Post comment reported, thanks!"
+msgstr "Kommentar gemeldet. Danke!"
+
+#: kongo_moderation/views/report/views.py:87
+msgid "User reported, thanks!"
+msgstr "Nutzer gemeldet. Danke!"
+
+#: kongo_moderation/views/report/views.py:112
+msgid "Hashtag reported, thanks!"
+msgstr "Hashtag gemeldet, danke!"
+
+#: kongo_moderation/views/report/views.py:137
+msgid "Community reported, thanks!"
+msgstr "Community gemeldet. Danke!"
+
+#: kongo_moderation/views/validators.py:10
+msgid "The category does not exist."
+msgstr "Diese Kategorie ist nicht vorhanden."
+
+#: kongo_moderation/views/validators.py:17
+msgid "The moderated object does not exist."
+msgstr "Das moderierte Objekt existiert nicht."
+
+#: kongo_notifications/helpers.py:29
+#, python-format
+msgid "%(post_reactor_name)s · @%(post_reactor_username)s reacted to your post."
+msgstr "%(post_reactor_name)s · @%(post_reactor_username)s hat auf deinen Beitrag reagiert."
+
+#: kongo_notifications/helpers.py:74
+#, python-format
+msgid "%(following_user_name)s · @%(following_user_username)s started following you"
+msgstr "%(following_user_name)s · @%(following_user_username)s folgt dir jetzt"
+
+#: kongo_notifications/helpers.py:101
+#, python-format
+msgid "%(connection_requester_name)s · @%(connection_requester_username)s wants to connect with you."
+msgstr "%(connection_requester_name)s · @%(connection_requester_username)s möchte sich mit dir verbinden."
+
+#: kongo_notifications/helpers.py:132
+#, python-format
+msgid "%(post_comment_reactor_name)s · @%(post_comment_reactor_username)s reacted to your comment."
+msgstr "%(post_comment_reactor_name)s · @%(post_comment_reactor_username)s hat auf deinen Kommentar reagiert."
+
+#: kongo_notifications/helpers.py:162
+#, python-format
+msgid "%(mentioner_name)s · @%(mentioner_username)s mentioned you in a comment."
+msgstr "%(mentioner_name)s · @%(mentioner_username)s hat dich in einem Kommentar erwähnt."
+
+#: kongo_notifications/helpers.py:193
+#, python-format
+msgid "%(mentioner_name)s · @%(mentioner_username)s mentioned you in a post."
+msgstr "%(mentioner_name)s · @%(mentioner_username)s hat dich in einem Beitrag erwähnt."
+
+#: kongo_notifications/helpers.py:219
+#, python-format
+msgid "%(invite_creator_name)s · @%(invite_creator_username)s has invited you to join c/%(community_name)s."
+msgstr "%(invite_creator_name)s · @%(invite_creator_username)s hat dich eingeladen c/%(community_name)s beizutreten."
+
+#: kongo_notifications/helpers.py:248
+#, python-format
+msgid "A new post was posted in c/%(community_name)s."
+msgstr "Ein neuer Beitrag wurde in c/%(community_name)s gepostet."
+
+#: kongo_notifications/helpers.py:276
+#, python-format
+msgid "%(post_creator_name)s · @%(post_creator_username)s posted something."
+msgstr "%(post_creator_name)s · @%(post_creator_username)s hat etwas gepostet."
+
+#: kongo_notifications/validators.py:10
+msgid "No notification with the provided id exists."
+msgstr "Es existiert keine Benachrichtigung mit der angegebenen ID."
+
+#: kongo_posts/checkers.py:11
+msgid "Cannot remove the text of a text only post. Try deleting it instead."
+msgstr "Der Text eines reinen Textbeitrags kann nicht entfernt werden. Versuche stattdessen, ihn zu löschen."
+
+#: kongo_posts/checkers.py:18
+msgid "Post is not a draft"
+msgstr "Beitrag ist kein Entwurf"
+
+#: kongo_posts/checkers.py:28
+msgid "Maximum amount of post media items reached"
+msgstr "Maximale Anzahl an Beitragsmedien erreicht"
+
+#: kongo_posts/checkers.py:35
+msgid "The post is being processed"
+msgstr "Der Beitrag wird verarbeitet"
+
+#: kongo_posts/checkers.py:41
+msgid "The post is already published"
+msgstr "Der Beitrag ist bereits veröffentlicht"
+
+#: kongo_posts/checkers.py:46
+msgid "The post is empty. Try adding text or media."
+msgstr "Der Beitrag ist leer. Füge Text oder Medien hinzu."
+
+#: kongo_posts/checkers.py:56
+#, python-format
+msgid "%s is not a supported mimetype"
+msgstr "%s ist kein unterstützter MIME-Type"
+
+#: kongo_posts/models.py:65 kongo_posts/models.py:858
+msgid "text"
+msgstr "Text"
+
+#: kongo_posts/models.py:70
+msgid "comments enabled"
+msgstr "Kommentare aktiviert"
+
+#: kongo_posts/models.py:71
+msgid "public reactions"
+msgstr "öffentliche Reaktionen"
+
+#: kongo_posts/models.py:88
+msgid "media height"
+msgstr "Medienhöhe"
+
+#: kongo_posts/models.py:89
+msgid "media width"
+msgstr "Medienbreite"
+
+#: kongo_posts/models.py:90 kongo_posts/models.py:782
+#: kongo_posts/models.py:821
+msgid "thumbnail"
+msgstr "Vorschau"
+
+#: kongo_posts/models.py:118
+msgid "A post requires circles or a community to be posted to."
+msgstr "Ein Beitrag erfordert, dass in Kreisen oder eine Community gepostet wird."
+
+#: kongo_posts/models.py:121
+msgid "A post cannot be posted both to a community and to circles."
+msgstr "Ein Beitrag kann nicht sowohl in einer Community als auch in Kreisen veröffentlicht werden."
+
+#: kongo_posts/models.py:126
+msgid "A post must have an image or a video, not both."
+msgstr "Ein Beitrag muss ein Bild oder ein Video enthalten, nicht beides."
+
+#: kongo_posts/models.py:493
+msgid "Unsupported media file type"
+msgstr "Nicht unterstützter Dateityp"
+
+#: kongo_posts/models.py:781 kongo_posts/models.py:807
+msgid "hash"
+msgstr "Hash"
+
+#: kongo_posts/validators.py:17 kongo_posts/validators.py:26
+msgid "The post does not exist."
+msgstr "Der Beitrag existiert nicht."
+
+#: kongo_posts/validators.py:35 kongo_posts/validators.py:44
+msgid "The post comment does not exist."
+msgstr "Der Kommentar existiert nicht."
+
+#: kongo_posts/validators.py:55 kongo_posts/validators.py:73
+msgid "The post comment reaction does not exist."
+msgstr "Die Kommentar-Reaktion existiert nicht."
+
+#: kongo_posts/validators.py:64
+msgid "The post reaction does not exist."
+msgstr "Die Reaktion existiert nicht."
+
+#: kongo_posts/validators.py:82 kongo_posts/validators.py:105
+#, python-format
+msgid "Please add a maximum of %(max_hashtags)d hashtags."
+msgstr ""
+
+#: kongo_posts/validators.py:90 kongo_posts/validators.py:113
+#, python-format
+msgid "Please keep hashtags under %(max_characters)d characters."
+msgstr "Bitte halte Hashtags unter %(max_characters)d Zeichen."
+
+#: kongo_posts/views/post/views.py:76
+msgid "Post deleted"
+msgstr "Beitrag gelöscht"
+
+#: kongo_posts/views/post/views.py:195
+#: kongo_posts/views/post_comment/views.py:142
+msgid "Translation between these languages is not supported."
+msgstr "Die Übersetzung zwischen diesen Sprachen wird nicht unterstützt."
+
+#: kongo_posts/views/post/views.py:198
+#: kongo_posts/views/post_comment/views.py:145
+msgid "Translation service returned an error"
+msgstr "Der Übersetzungsdienst hat einen Fehler zurückgegeben"
+
+#: kongo_posts/views/post/views.py:201
+#: kongo_posts/views/post_comment/views.py:148
+msgid "Max length of translation text exceeded."
+msgstr "Maximale Länge des Übersetzungstextes überschritten."
+
+#: kongo_posts/views/post/views.py:316
+msgid "The linked url associated for preview was not found."
+msgstr "Die verknüpfte URL für die Vorschau wurde nicht gefunden."
+
+#: kongo_posts/views/post/views.py:319
+msgid "The linked url associated for preview was not reachable."
+msgstr "Die verknüpfte URL für die Vorschau war nicht erreichbar."
+
+#: kongo_posts/views/post_comment/post_comment_reaction/views.py:31
+msgid "Post comment reaction deleted"
+msgstr "Kommentar-Reaktion gelöscht"
+
+#: kongo_posts/views/post_comment/views.py:57
+msgid "Comment deleted"
+msgstr "Kommentar gelöscht"
+
+#: kongo_posts/views/post_comment/views.py:103
+msgid "Post comment muted."
+msgstr "Kommentar stummgeschaltet."
+
+#: kongo_posts/views/post_comment/views.py:121
+msgid "Post comment unmuted."
+msgstr "Kommentar nicht mehr stumm."
+
+#: kongo_posts/views/post_media/views.py:35
+msgid "Media added successfully to post"
+msgstr "Medien erfolgreich zum Beitrag hinzugefügt"
+
+#: kongo_posts/views/post_reaction/views.py:42
+msgid "Reaction deleted"
+msgstr "Reaktion gelöscht"
+
+#: video_encoding/backends/__init__.py:13
+msgid "Cannot retrieve backend '{}'. Error: '{}'."
+msgstr "Kann Backend '{}' nicht abrufen. Fehler: '{}'."
+
+#: video_encoding/fields.py:24
+msgid "Video"
+msgstr "Video"
+
+#: video_encoding/models.py:36
+msgid "Progress"
+msgstr "Fortschritt"
+
+#: video_encoding/models.py:41 video_encoding/models.py:70
+msgid "Format"
+msgstr "Format"
+
+#: video_encoding/models.py:48
+msgid "File"
+msgstr "Datei"
+
+#: video_encoding/models.py:54
+msgid "Width"
+msgstr "Breite"
+
+#: video_encoding/models.py:59
+msgid "Height"
+msgstr "Höhe"
+
+#: video_encoding/models.py:64
+msgid "Duration (s)"
+msgstr "Dauer (s)"
+
+#: video_encoding/models.py:71
+msgid "Formats"
+msgstr "Formate"
+
+#~ msgid "You can only retrieve favicon urls from protocol http and https."
+#~ msgstr ""
+#~ "Sólo puedes obtener los favicons de las urls con protocolos http y https."
+
+#~ msgid "The specified url was not found."
+#~ msgstr "La url especificada no se encontró."
+
+#~ msgid "The specified url was not reachable."
+#~ msgstr "La url especificada no fue accesible."
+
+#~ msgid "The invite has been already used."
+#~ msgstr "La invitación ya ha sido utilizada."
+
+#~ msgid "A post requires text or an image/video."
+#~ msgstr "Un post requiere texto o una imagen/vídeo."
+

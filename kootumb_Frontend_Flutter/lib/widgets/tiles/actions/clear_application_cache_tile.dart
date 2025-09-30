@@ -1,0 +1,67 @@
+import 'package:Kootumb/provider.dart';
+import 'package:Kootumb/services/localization.dart';
+import 'package:Kootumb/widgets/icon.dart';
+import 'package:Kootumb/widgets/theming/secondary_text.dart';
+import 'package:Kootumb/widgets/theming/text.dart';
+import 'package:Kootumb/widgets/tiles/loading_tile.dart';
+import 'package:flutter/material.dart';
+
+class OBClearApplicationCacheTile extends StatefulWidget {
+  const OBClearApplicationCacheTile({Key? key}) : super(key: key);
+
+  @override
+  State<StatefulWidget> createState() {
+    return OBClearApplicationCacheTileState();
+  }
+}
+
+class OBClearApplicationCacheTileState
+    extends State<OBClearApplicationCacheTile> {
+  late bool _inProgress;
+
+  @override
+  initState() {
+    super.initState();
+    _inProgress = false;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    LocalizationService localizationService =
+        KongoProvider.of(context).localizationService;
+
+    return OBLoadingTile(
+      leading: OBIcon(OBIcons.clear),
+      title: OBText(localizationService.user__clear_application_cache_text),
+      subtitle: OBSecondaryText(
+          localizationService.user__clear_application_cache_desc),
+      isLoading: _inProgress,
+      onTap: () => _clearApplicationCache(localizationService),
+    );
+  }
+
+  Future _clearApplicationCache(LocalizationService localizationService) async {
+    _setInProgress(true);
+
+    KongoProviderState kongoProvider = KongoProvider.of(context);
+    try {
+      await kongoProvider.userService.clearCache();
+      kongoProvider.toastService.success(
+          message: localizationService.user__clear_application_cache_success,
+          context: context);
+    } catch (error) {
+      kongoProvider.toastService.error(
+          message: localizationService.user__clear_application_cache_failure,
+          context: context);
+      rethrow;
+    } finally {
+      _setInProgress(false);
+    }
+  }
+
+  void _setInProgress(bool inProgress) {
+    setState(() {
+      _inProgress = inProgress;
+    });
+  }
+}

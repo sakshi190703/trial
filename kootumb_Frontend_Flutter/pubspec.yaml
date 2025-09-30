@@ -1,0 +1,204 @@
+name: Kootumb
+description: Social Network
+
+version: 1.2.10+105
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+publish_to: none
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+
+  # Modern replacements for discontinued plugins
+  connectivity_plus: ^6.0.3
+  device_info_plus: ^11.5.0
+  package_info_plus: ^8.3.0
+  app_links: ^6.4.0
+  wakelock_plus: ^1.2.5
+
+  # Updated plugins
+  collection: ^1.18.0
+  exif: ^3.3.0
+  html: ^0.15.4
+  expandable: ^5.0.1
+  uuid: ^4.5.1
+  flutter_image_compress: ^2.1.0
+  inview_notifier_list: ^3.0.0
+  visibility_detector: ^0.4.0+2
+  video_thumbnail: ^0.5.6
+  retry: ^3.1.2
+  shared_preferences: ^2.2.3
+  file_picker: ^10.2.0
+  sentry_flutter: ^9.1.0
+  back_button_interceptor: ^8.0.4
+  flutter_colorpicker: ^1.1.0
+  intercom_flutter: ^9.3.3
+  flutter_pagewise: ^2.0.1
+  tinycolor2: ^3.0.0
+  onesignal_flutter: ^5.3.3
+ # flutter_advanced_networkimage_2: ^2.0.1
+  dcache: ^0.4.0
+  validators: ^3.0.0
+  url_launcher: ^6.2.6
+  flutter_slidable: ^4.0.0
+  google_fonts: ^6.2.1
+  flutter_cache_manager: ^3.4.1
+  cached_network_image: ^3.4.1
+  timeago: ^3.6.0
+  public_suffix: ^3.0.0
+  pigment: ^1.0.4
+  photo_view: ^0.15.0
+  flutter_svg: ^1.1.6 # (latest compatible with flutter_advanced_networkimage_2)
+  flutter_secure_storage: ^9.2.4
+  mime: ^2.0.0
+  http: ^1.2.2 # (latest compatible with flutter_advanced_networkimage_2)
+  throttling: ^2.0.1
+  rxdart: ^0.28.0
+  video_player: ^2.8.6
+  sprintf: ^7.0.0
+  image_picker: ^1.0.7
+  image_cropper: ^9.1.0
+  shimmer: ^3.0.0
+  share_plus: ^11.0.0
+  path: ^1.9.0
+  gsheets: ^0.5.0 # (latest compatible with http ^0.13.6)
+  flutter_native_splash: ^2.4.0
+
+  # Remove discontinued packages from your code:
+  # flutter_ffmpeg: (use ffmpeg_kit_flutter if needed, see ffmpeg-kit docs)
+  #flutter_markdown_plus: (use flutter_markdown)
+  # http_retry: (use http or retry package)
+
+  async: any
+  intl: any
+  sentry: ^9.1.0
+  crypto: any
+  path_provider: any
+  http_parser: any
+  ffmpeg_kit_min_gpl: ^6.0.3+2-LTS
+  flutter_markdown: ^0.7.7+1
+  flutter_lints: ^6.0.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash_img.png
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+dependency_overrides:
+  args: ^2.3.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "#FFFFFFFF"
+  adaptive_icon_foreground: "assets/images/icon-adaptive-foreground.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/theme-previews/theme-preview-dark.png
+    - assets/images/theme-previews/theme-preview-colorful.png
+    - assets/images/theme-previews/theme-preview-dark-gold.png
+    - assets/images/theme-previews/theme-preview-white.png
+    - assets/images/theme-previews/theme-preview-white-gold.png
+    - assets/images/theme-previews/theme-preview-space-blue.png
+    - assets/images/theme-previews/theme-preview-light-blue.png
+    - assets/images/theme-previews/theme-preview-light-rose.png
+    - assets/images/theme-previews/theme-preview-space-rose.png
+    - assets/images/theme-previews/theme-preview-light-cinnabar.png
+    - assets/images/theme-previews/theme-preview-space-cinnabar.png
+    - assets/images/theme-previews/theme-preview-light-royale.png
+    - assets/images/theme-previews/theme-preview-space-royale.png
+    - assets/images/splash-background.png
+    - assets/images/kongo-o-logo.png
+    - assets/images/pixel-universe.jpg
+    - assets/images/confetti-background.gif
+    - assets/images/icons/gif-icon.png
+    - assets/images/icons/profile-icon.png
+    - assets/images/icons/connections-icon.png
+    - assets/images/icons/burner-icon.png
+    - assets/images/icons/settings-icon.png
+    - assets/images/icons/help-icon.png
+    - assets/images/icons/thinking.gif
+    - assets/images/icons/customize-icon.png
+    - assets/images/icons/logout-icon.png
+    - assets/images/icons/audience-icon.png
+    - assets/images/icons/home-icon.png
+    - assets/images/icons/notifications-icon.png
+    - assets/images/icons/search-icon.png
+    - assets/images/icons/communities-icon.png
+    - assets/images/icons/create-post-icon.png
+    - assets/images/icons/chat-icon.png
+    - assets/images/icons/photo-icon.png
+    - assets/images/icons/video-icon.png
+    - assets/images/icons/camera-icon.png
+    - assets/images/icons/warning-icon.png
+    - assets/images/icons/success-icon.png
+    - assets/images/icons/error-icon.png
+    - assets/images/icons/info-icon.png
+    - assets/images/icons/comments-icon.png
+    - assets/images/icons/comment-icon.png
+    - assets/images/icons/react-icon.png
+    - assets/images/icons/like-icon.png
+    - assets/images/icons/finish-icon.png
+    - assets/images/icons/expand-icon.png
+    - assets/images/icons/load-more-posts-icon.gif
+    - assets/images/stickers/female-instructor.png
+    - assets/images/stickers/got-it.png
+    - assets/images/stickers/owl-instructor.png
+    - assets/images/stickers/perplexed-owl.png
+    - assets/images/categories/category_all-min.png
+    - assets/images/fallbacks/post-fallback.png
+    - assets/images/fallbacks/cover-fallback.jpg
+    - assets/images/fallbacks/avatar-fallback.jpg
+    - assets/other/public_suffix_list.dat
+    - assets/images/kootumbBlue1.png
+    - assets/images/splash_img.png
+    - assets/.env.json
+    
+
+  
+  # ...existing code...
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+        - asset: assets/fonts/OpenSans-SemiBold.ttf
+        - asset: assets/fonts/OpenSans-Italic.ttf
+        - asset: assets/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/OpenSans-VariableFont_wdth,wght.ttf
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/NunitoSans-Regular.ttf
+          style: normal
+        - asset: assets/fonts/NunitoSans-Bold.ttf
+          style: italic
+    # - family: VisbyRoundCF
+    #   fonts:
+    #     - asset: assets/fonts/VisbyRoundCF-Regular.otf
+    #       style: normal
+    #     - asset: assets/fonts/VisbyRoundCF-Bold.otf
+    #       style: italic
+    # - family: CogogooseProSemilight
+    #   fonts:
+    #     - asset: assets/fonts/Cocogoose-Pro-Semilight.ttf
+    #       style: normal
+    # - family: ""
+    #   fonts:
+    #     - asset: assets/fonts/NunitoSans-Regular.ttf
+    #       weight: 400
+    #       style: normal

@@ -1,0 +1,64 @@
+# Kootumb Project .gitignore
+
+# Backend (Django) ignores
+kootumb_API_Backend/.env
+kootumb_API_Backend/db.sqlite3
+kootumb_API_Backend/media/
+kootumb_API_Backend/staticfiles/
+kootumb_API_Backend/__pycache__/
+kootumb_API_Backend/**/__pycache__/
+kootumb_API_Backend/**/*.pyc
+kootumb_API_Backend/django.log
+kootumb_API_Backend/celerybeat-schedule
+kootumb_API_Backend/.coverage
+kootumb_API_Backend/env/
+kootumb_API_Backend/.venv/
+
+# Frontend (Flutter) ignores
+kootumb_Frontend_Flutter/build/
+kootumb_Frontend_Flutter/.dart_tool/
+kootumb_Frontend_Flutter/android/.gradle/
+kootumb_Frontend_Flutter/android/app/build/
+kootumb_Frontend_Flutter/android/gradle/
+kootumb_Frontend_Flutter/ios/Flutter/flutter_assets/
+kootumb_Frontend_Flutter/ios/Flutter/App.framework/
+kootumb_Frontend_Flutter/ios/Flutter/Flutter.framework/
+kootumb_Frontend_Flutter/ios/Runner.xcworkspace/
+kootumb_Frontend_Flutter/.flutter-plugins
+kootumb_Frontend_Flutter/.flutter-plugins-dependencies
+kootumb_Frontend_Flutter/.packages
+kootumb_Frontend_Flutter/pubspec.lock
+kootumb_Frontend_Flutter/.metadata
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archive files
+*.zip
+*.tar.gz
+*.7z
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Temporary files
+test_connection.py
+kon-go-api
+
+# Node modules (if any)
+node_modules/

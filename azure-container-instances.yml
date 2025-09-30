@@ -1,0 +1,71 @@
+apiVersion: 2021-07-01
+location: East US
+name: kootumb-container-group
+properties:
+  containers:
+  # Django Backend Container
+  - name: kootumb-backend
+    properties:
+      image: your-registry.azurecr.io/kootumb-backend:latest
+      resources:
+        requests:
+          cpu: 1.0
+          memoryInGb: 2.0
+      ports:
+      - protocol: TCP
+        port: 8000
+      environmentVariables:
+      - name: DEBUG
+        value: 'False'
+      - name: ALLOWED_HOSTS
+        value: 'kootumb-api.eastus.azurecontainer.io,localhost'
+      - name: DATABASE_URL
+        secureValue: 'mysql://username:password@your-mysql-server.mysql.database.azure.com:3306/kootumb_db?ssl_mode=REQUIRED'
+      - name: SECRET_KEY
+        secureValue: 'your-secret-key-here'
+      - name: CORS_ALLOW_ALL_ORIGINS
+        value: 'True'
+  
+  # MySQL Container (Alternative to Azure Database for MySQL)
+  - name: mysql
+    properties:
+      image: mysql:8.0
+      resources:
+        requests:
+          cpu: 1.0
+          memoryInGb: 2.0
+      ports:
+      - protocol: TCP
+        port: 3306
+      environmentVariables:
+      - name: MYSQL_DATABASE
+        value: 'kootumb_db'
+      - name: MYSQL_USER
+        value: 'kootumb_user'
+      - name: MYSQL_PASSWORD
+        secureValue: 'kootumb_password'
+      - name: MYSQL_ROOT_PASSWORD
+        secureValue: 'root_password'
+      volumeMounts:
+      - name: mysql-storage
+        mountPath: /var/lib/mysql
+  
+  osType: Linux
+  restartPolicy: Always
+  ipAddress:
+    type: Public
+    ports:
+    - protocol: TCP
+      port: 8000
+    - protocol: TCP
+      port: 3306
+    dnsNameLabel: kootumb-api
+  volumes:
+  - name: mysql-storage
+    azureFile:
+      shareName: mysql-data
+      storageAccountName: kootumbstorage
+      storageAccountKey: your-storage-key
+tags:
+  Environment: Production
+  Project: Kootumb

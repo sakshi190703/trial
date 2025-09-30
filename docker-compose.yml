@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  # MySQL Database
+  db:
+    image: mysql:8.0
+    container_name: kootumb_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: kootumb_db
+      MYSQL_USER: kootumb_user
+      MYSQL_PASSWORD: kootumb_password
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./setup_mysql.sql:/docker-entrypoint-initdb.d/setup.sql
+    networks:
+      - kootumb_network
+
+  # Django Backend
+  backend:
+    build: 
+      context: ./kootumb_API_Backend
+      dockerfile: Dockerfile
+    container_name: kootumb_backend
+    restart: unless-stopped
+    environment:
+      - DEBUG=False
+      - DATABASE_URL=mysql://kootumb_user:kootumb_password@db:3306/kootumb_db
+      - ALLOWED_HOSTS=localhost,127.0.0.1,backend
+      - SECRET_KEY=your-secret-key-here
+      - CORS_ALLOW_ALL_ORIGINS=True
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./kootumb_API_Backend/media:/app/media
+      - ./kootumb_API_Backend/staticfiles:/app/staticfiles
+    depends_on:
+      - db
+    networks:
+      - kootumb_network
+
+  # Nginx Reverse Proxy (Optional for production-like setup)
+  nginx:
+    image: nginx:alpine
+    container_name: kootumb_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./kootumb_API_Backend/staticfiles:/app/staticfiles
+      - ./kootumb_API_Backend/media:/app/media
+    depends_on:
+      - backend
+    networks:
+      - kootumb_network
+
+volumes:
+  mysql_data:
+
+networks:
+  kootumb_network:
+    driver: bridge
